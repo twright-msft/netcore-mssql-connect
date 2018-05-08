@@ -13,9 +13,9 @@ namespace SqlServerSample
             {
                 // Build connection string
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "172.30.96.55";    // update me
+                builder.DataSource = "servername";      // update me
                 builder.UserID = "sa";                  // update me
-                builder.Password = "Yukon900";          // update me
+                builder.Password = "the_password";      // update me
                 builder.InitialCatalog = "master";
 
                 while(true)
